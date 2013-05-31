@@ -1,0 +1,355 @@
+div.hasSVG 
+{
+    outline-style:none;    
+}
+
+/* tooltip styling. by default the element to be styled is .graph-tooltip  */
+
+.graph-tooltip-big {	
+	 background: #232323;
+}
+
+.graph-tooltip {
+display: none;
+background: #353535;
+font-size: 12px;
+width: 400px;
+padding: 10px;
+color: white;
+z-index: 2000;
+position: relative;
+margin-top: -20px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+border: #FFFFFF 20px solid;
+border-width: 5px 5px 20px 5px;
+}
+
+.tooltip-triangle 
+{
+    width: 30px;
+    height: 20px;
+    display: block;
+    background:transparent url('img/tooltiptriangle.png');
+    position: absolute;
+    bottom: -20px;
+    left: 195px;
+}
+
+.graph-tooltip-btn-close 
+{
+    width: 20px;
+    height: 16px;
+    padding: 2px 0;
+    display: block;
+    background: #404040;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 3px solid #2376D7;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.graph-tooltip-btn-close:hover
+{
+    cursor: pointer;
+}
+
+.graph-tooltip a,
+.graph-tooltip a:visited, 
+.graph-tooltip a:hover 
+{	
+	color:#ffffff;	
+	text-decoration:underline;
+}
+
+.graph-tooltip a:hover 
+{	
+	text-decoration:none;
+}
+
+.graph-tooltip div.external-searches 
+{
+    margin: 16px 0px 16px 0px;
+}
+
+.graph-tooltip div.external-searches img 
+{
+    margin-right:6px;    
+    border-style:none;
+}
+
+/* graph title */
+.graph-title,
+.graph-sub-title
+{
+    position:absolute;
+	top:0px;
+	width:100%;
+	text-align:left;	
+	color:#606060;
+	color: #ffffff;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Verdana;
+	padding: 5px;
+	top: 0px;	
+}
+
+.graph-sub-title
+{    
+	top:24px;	
+	font-size:12px;	
+}
+/* end graph title */
+
+/* nav toolbar styling. by default the element to be styled is .graph-nav*/
+.graph-nav
+{    	
+	font-size:12px;
+	width:60px;
+	height:80px;
+	padding: 0px 0px 6px 0px;
+	color:#ffffff;
+	border: solid 1px #909090;
+	position:absolute;
+	top:32px;
+	left:10px;
+    z-index: 1000;
+    border-style:none;
+}
+
+.graph-nav-tool
+{    	
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+	font-size:11px;	
+	border: 2px solid #555;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+    border-radius: 16px 16px 16px 16px;
+    background: #333;
+	height: 16px;
+    width: 16px;
+    cursor:pointer;
+}
+
+.graph-nav-tool:hover
+{ 
+    background: #000;
+}
+
+.graph-nav-full-screen
+{    		
+	background-position: -16px -80px;
+	margin-left:16px;
+	display:none;	
+}
+
+/* pan controls */
+.graph-nav-pan-up-left
+{    	
+	background-position: -108px -12px;
+	float:left;
+	visibility:hidden;	
+}
+
+.graph-nav-pan-up
+{    		
+	background-position: -32px 0px;
+	float:left;
+}
+
+.graph-nav-pan-up-right
+{    	
+	background-position: -20px -12px;
+	float:left;
+	visibility:hidden;
+}
+
+.graph-nav-pan-left
+{    		
+	background-position: -48px 0px;
+	float:left;
+}
+
+.graph-nav-pan-home, .graph-nav-pan-home:hover
+{    	
+	background-image: url("img/home.png");
+	background-repeat:no-repeat;
+	background-position: 0 0px;
+	float:left;
+}
+
+.graph-nav-pan-right
+{    	
+	background-position: -16px -0px;
+	float:left;
+}
+
+.graph-nav-pan-down-left
+{    	
+	background-position: -76px -20px;
+	float:left;
+	visibility:hidden;
+}
+
+.graph-nav-pan-down
+{    	
+	background-position: -0px -0px;
+	float:left;
+}
+
+.graph-nav-pan-down-right
+{    	
+	background-position: -52px -20px;
+	float:left;
+	visibility:hidden;
+}
+/* end pan controls */
+
+/* zoom controls */
+.graph-nav-zoom 
+{ 
+    
+    top: 15px;
+    padding-top: 0px;
+    position: absolute;
+    right: -75px;
+    
+}
+.graph-nav-zoom-in, .graph-nav-zoom-in:hover
+{    	
+    font-size: 17px;
+    font-weight: bold;
+    /*background-image: url("img/zoom.png");background-repeat:no-repeat;*/
+	background-position: 3px 2px;
+	width: 22px;
+	height: 22px;
+	float: left;
+}
+
+.graph-nav-zoom-out, .graph-nav-zoom-out:hover
+{    	
+    font-size: 17px;
+    font-weight: bold;
+    /*background-image: url("img/zoom.png");background-repeat:no-repeat;*/
+	background-position: -18px 2px;
+	width: 22px;
+	height: 22px;
+	float: right;
+}
+/* end zoom controls */
+
+/* legend styling. by default the element to be styled is .graph-legend*/
+.graph-legend
+{    	
+	font-size:12px;
+	min-width:48px;
+	/*max-width: 140px;*/
+	min-height:20px;
+	padding: 10px 10px 10px 10px;
+	color:#ffffff;
+	/* border: solid 1px #909090; */
+	position:absolute;
+	top:0px;
+	right:10px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    z-index: 1000;
+    background: rgba(80, 80, 80, 0.6);
+}
+
+.graph-legend ul 
+{
+    margin:0px 0px 0px 0px;    
+    padding:0px 0px 0px 0px;    
+    list-style-position: inside;    
+    list-style-type:none; 
+}
+
+.graph-legend ul li
+{
+    cursor: pointer;
+}
+
+.graph-legend ul li span
+{
+    margin-right:6px;
+}
+
+.graph-legend ul li ul
+{
+    margin-left:10px;        
+}
+
+/* end legend */
+
+
+/* search box styling. by default the element to be styled is .graph-search and .graph-search-box*/
+.graph-search
+{    		
+    background: #333;
+	/*border: solid 1px #909090;*/
+	position:absolute;
+	top:0px;
+	left:10px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    z-index: 1000;
+    padding:3px 2px 2px 2px;
+}
+
+.graph-search-box 
+{
+    width:130px !important;    
+    background-color: transparent;
+    border-style:none !important;  
+    outline-style:none;  
+    text-align: right;
+}
+
+.graph-search-box-default-text 
+{
+    color:#6D6D6D;    
+}
+
+/* end search box */
+
+/* graph-highlight styles */
+#nodesGroup.graph-highlight-all .shape-main,
+#connectionsGroup.graph-highlight-all .conn,
+#labelsGroup.graph-highlight-all .label { opacity: 0.2; }
+
+.graph-highlight-selected-node { opacity: 1 !important; stroke: #900000 !important; }
+.graph-highlight-selected-connections { opacity: 1 !important; }
+.graph-highlight-selected-label { opacity: 1 !important; }
+.graph-highlight-selected-connected-nodes { opacity: 1 !important; }
+.graph-highlight-selected-connected-labels { opacity: 1 !important; }
+
+/* .graph-highlight-fast - for faster node selection when there are many nodes */
+.graph-highlight-fast-selected-node { stroke: #900000 !important; }
+.graph-highlight-fast-selected-connections { stroke: #900000; }
+.graph-highlight-fast-selected-label { fill: #900000 !important; }
+
+/* end graph-highlight styles */
+
+/* graph-dragged styles */
+.graph-dragged 
+{
+    cursor:move;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}            
+/* end graph-dragged styles */

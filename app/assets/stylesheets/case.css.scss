@@ -1,3 +1,35 @@
 // Place all the styles related to the Case controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#search_wrapper {
+    background: url('search-bg.png') no-repeat center top;
+    text-align: center;
+}
+
+#search_wrapper .search-field {
+    margin-top: 216px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #444444;
+    border: thin none;
+    padding: 14px 10px;
+}
+
+#search_wrapper .search-button {
+    display: none;
+}
+
+#search_title_wrapper {
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #222;
+    text-align: center;
+    width: 100%;
+    margin-top: 220px;
+}
+
+#search_title_wrapper #title {
+    font-size: 3em;
+}

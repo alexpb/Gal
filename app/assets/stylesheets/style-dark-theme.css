@@ -1,0 +1,123 @@
+﻿body
+{
+   background-color: #767F73;
+    background-image: url("images/bg.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#main a, #main a:visited
+{
+    color: #ffffff !important;    
+}
+
+a:hover
+{
+    opacity:0.5;    
+    text-decoration:underline;
+}
+
+div.page 
+{
+    width:960px;
+    margin-top:0px;
+}
+
+div#logo
+{
+    display:block;
+    float:left;
+    text-align:left;
+    margin-top: 30px;
+    margin-left:30px;
+}
+
+#header
+{
+    background-color:#ffffff; 
+}
+
+#logindisplay 
+{
+    margin-top:0px;
+    padding-top:10px;
+    color: #111111;
+}
+
+#logindisplay a,
+#logindisplay a:link,
+#logindisplay a:visited
+ {
+    color: #111111;
+    text-decoration:none;
+}
+
+#logindisplay a:hover {
+    color: #111111;
+    text-decoration: none !important;
+    text-transform: none;
+}
+
+#menucontainer {
+    margin-top: 50px;
+}
+
+ul#menu {
+    border-bottom: 0px solid #5C87B2;
+    visibility:hidden;
+}
+
+#main 
+{
+    background-color: #111111; /*#2A2B29;*/
+    min-height:500px;
+}
+
+#header h2, #header h2 a, #header h2 a:visited,
+#main h2, #main h2 a, #main h2 a:visited
+{
+    color: #D3B72A;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#main small {
+    font-family: Verdana;
+    font-size: 9pt;
+    color: #A4A59D;
+}
+
+#footer 
+{
+    background-color: #111111; /*#2A2B29;*/    
+}
+
+
+
+/* alerts */
+
+div.alert-Error 
+{
+    border: 1px solid #909090;
+    color: #CD0A0A;
+    background-color:#transparent;    
+}
+
+div.alert-Info 
+{
+    border: 1px solid #909090;
+    color: #ffffff;
+    background-color:transparent;    
+}
+
+/* end alerts */
+
+.graph-search-box 
+{
+    color:#ffffff;   
+}

@@ -1,2 +1,10 @@
-<h1>Case#search</h1>
-<p>Find me in app/views/case/search.html.erb</p>
+<%= form_tag('SearchResults', :method => "get") do %>
+    <div id="search_wrapper">
+        <%= text_field_tag(:query, nil, :class => 'search-field') %>
+        <%= submit_tag('Search', :class => 'search-button') %>
+        <div id="search_title_wrapper">
+            <span id="title"><span class="italic">Galexi</span> Search </span><br />
+            Type keywords / names related to area of research.
+        </div>
+    </div>
+<% end %>
